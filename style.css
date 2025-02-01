@@ -1,0 +1,37 @@
+html {
+    overflow-y: scroll;
+}
+body {
+    margin: 10px auto 200px;
+    width: 760px;
+    font-family: serif;
+    font-size: 18px;
+    line-height: 24px;
+    border: 1px solid black;
+}
+
+header {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header > nav {
+    float: right;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer > p {
+	text-align: center;
+}
+
+
