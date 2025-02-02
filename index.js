@@ -110,7 +110,7 @@ async function createPage() {
 			let anchor = document.createElement("a");
 			anchor.textContent = "No Text Yet";
 			let billText = await grabText(bill);
-			if (billText["textVersions"].lenght > 0) {
+			if (billText["textVersions"].length > 0) {
 				anchor.setAttribute("class", "billText");
 				anchor.setAttribute("href", billText["textVersions"][0]["formats"][0]["url"]);
 				anchor.textContent = billText["textVersions"][0]["formats"][0]["url"];
